@@ -1,5 +1,11 @@
 # 📦 Media Delivery SLA & Operations Analytics Platform
 
+## 🔗 Live Dashboard
+
+👉 View the interactive Looker Studio dashboard here:  
+https://your-dashboard-https://lookerstudio.google.com/reporting/37dd740f-22fd-4448-ad1b-8cafaa64e673
+
+
 An end-to-end analytics case study that simulates large-scale media delivery operations and analyzes SLA breaches, partner performance, artwork/content quality risks, and operational delay drivers using Python, MySQL, and Looker Studio.
 This project mirrors real-world OTT / broadcast supply-chain analytics used by streaming platforms and media distributors.
 ________________________________________
@@ -95,6 +101,21 @@ SUM(CASE WHEN actual_hours > sla_hours THEN 1 ELSE 0 END) / COUNT(*) * 100
 Avg Delivery Hours
 AVG(actual_hours)
 ________________________________________
+
+## 🧭 How to Explore the Dashboard
+
+Use the filters to:
+- Select partner or region
+- Filter by format or genre
+- Adjust date ranges
+- Identify high-risk operational segments
+
+Navigate across all 4 pages:
+1. Executive Overview  
+2. Partner Performance  
+3. Content & Artwork Risk  
+4. Operational Drilldowns  
+
 Repository Structure
 media-delivery-sla-analytics/
 │
@@ -121,6 +142,11 @@ This case study demonstrates:
 ✔ Real-world media domain understanding
 Perfect for Data Analyst / BI / Analytics Engineer portfolios.
 ________________________________________
+## 🎥 Demo
+
+The complete interactive dashboard can be accessed here:  
+https://your-dashboard-https://lookerstudio.google.com/reporting/37dd740f-22fd-4448-ad1b-8cafaa64e673
+
  How to Run Locally
 1.	Run Python generator:
 python generate_media_data.py
