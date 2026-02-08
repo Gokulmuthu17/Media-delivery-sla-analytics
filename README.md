@@ -3,7 +3,7 @@
 ## 🔗 Live Dashboard
 
 👉 View the interactive Looker Studio dashboard here:  
-lookerstudio.google.com/reporting/37dd740f-22fd-4448-ad1b-8cafaa64e673
+https://lookerstudio.google.com/reporting/37dd740f-22fd-4448-ad1b-8cafaa64e673
 
 
 An end-to-end analytics case study that simulates large-scale media delivery operations and analyzes SLA breaches, partner performance, artwork/content quality risks, and operational delay drivers using Python, MySQL, and Looker Studio.
@@ -145,7 +145,7 @@ ________________________________________
 ## 🎥 Demo
 
 The complete interactive dashboard can be accessed here:  
-lookerstudio.google.com/reporting/37dd740f-22fd-4448-ad1b-8cafaa64e673
+https://lookerstudio.google.com/reporting/37dd740f-22fd-4448-ad1b-8cafaa64e673
 
  How to Run Locally
 1.	Run Python generator:
